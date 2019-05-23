@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
   title = 'AngularDirectiveDemo';
+  items = [1, 2, 3, 4, 5, 6, 7];
+
+  onDelete(item) {
+    console.log('item' + item);
+  }
 }

@@ -1,5 +1,5 @@
 # AngularDirectiveDemo
-
+angular 自定义指令 的学习,以及理解部分rxjs 的使用方法
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
